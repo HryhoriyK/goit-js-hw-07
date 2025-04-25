@@ -6,12 +6,68 @@
         <script src="./js/task-1.js" defer></script>
         <script src="./js/task-2.js" defer></script>
         <script src="./js/task-3.js" defer></script>
+        <script src="./js/task-4.js" defer></script>
+        <script src="./js/task-5.js" defer></script>
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Droids for sale</h1> 
-    <button>>>Order droids here<<</button>
+    <ul id="categories" class="container">
+        <li class="item item-container">
+            <h2 class="item-name">Animals</h2>
+            <ul class="second-ul">
+                <li>Cat</li>
+                <li>Hamster</li>
+                <li>Horse</li>
+                <li>Parrot</li>
+            </ul>
+        </li>
+        <li class="item item-container">
+            <h2 class="item-name">Products</h2>
+            <ul class="second-ul">
+                <li>Bread</li>
+                <li>Parsley</li>
+                <li>Cheese</li>
+            </ul>
+        </li>
+        <li class="item item-container">
+            <h2 class="item-name">Technologies</h2>
+            <ul class="second-ul">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </li>
+    </ul>
 
+    <ul class="gallery"></ul>
+
+    <div class="container">
+    <input type="text" id="name-input" class="name-input" placeholder="Please enter your name" />
+    <h1 class="say-hello">Hello, <span id="name-output">Anonymous</span>!</h1>
+    </div>
+
+    <div class="container">
+    <form class="login-form">
+        <label class="label-item">
+            Email
+            <input class="input-item" type="email" name="email" />
+        </label>
+        <label class="label-item">
+            Password
+            <input class="input-item" type="password" name="password" />
+        </label class="label-item">
+        <button class="login-btn" type="submit">Log in</button>
+    </form>
+
+    <div class="widget">
+        <p>Background color: <span class="color">-</span></p>
+        <button type="button" class="change-color">Change color</button>
+    </div>
+
+    </div>
 
 </body>
 </html>
